@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Starbucks_saga.csv</name>
+	<Schema name="Starbucks_saga" id="S_Starbucks_saga_SS">
+		<SimpleField type="string" name="名前"><displayName>&lt;b&gt;名前&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="住所"><displayName>&lt;b&gt;住所&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>名前</b></td><td>$[Starbucks_saga/名前]</td></tr>
+  <tr><td><b>住所</b></td><td>$[Starbucks_saga/住所]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>名前</b></td><td>$[Starbucks_saga/名前]</td></tr>
+  <tr><td><b>住所</b></td><td>$[Starbucks_saga/住所]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Starbucks_saga</name>
+		<Placemark>
+			<name>佐賀南バイパス店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">佐賀南バイパス店</SimpleData>
+					<SimpleData name="住所">佐賀県佐賀市本庄町袋306-6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.298969,33.23873870000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>佐賀大学通り店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">佐賀大学通り店</SimpleData>
+					<SimpleData name="住所">佐賀県佐賀市与賀町70-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.2921148,33.24846309999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鳥栖プレミアム・アウトレット店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">鳥栖プレミアム・アウトレット店</SimpleData>
+					<SimpleData name="住所">佐賀県鳥栖市弥生が丘8-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.5107268,33.40679709999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSUTAYA鳥栖店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">TSUTAYA鳥栖店</SimpleData>
+					<SimpleData name="住所">佐賀県鳥栖市本鳥栖町537-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.5162713,33.37716159999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鳥栖蔵上町店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">鳥栖蔵上町店</SimpleData>
+					<SimpleData name="住所">佐賀県鳥栖市蔵上町662-5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.4986218,33.37595450000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>基山パーキングエリア（上り線）店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">基山パーキングエリア（上り線）店</SimpleData>
+					<SimpleData name="住所">佐賀県三養基郡基山町小倉2097-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.5296036,33.44080009999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>蔦屋書店武雄市図書館店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">蔦屋書店武雄市図書館店</SimpleData>
+					<SimpleData name="住所">佐賀県武雄市武雄町武雄5304-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.0228525,33.18880409999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>佐賀武雄店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">佐賀武雄店</SimpleData>
+					<SimpleData name="住所">佐賀県武雄市武雄町昭和277</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.0274631,33.1934474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>唐津店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">唐津店</SimpleData>
+					<SimpleData name="住所">佐賀県唐津市和多田西山1-46-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>129.9819966,33.43081230000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金立サービスエリア（下り線）店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">金立サービスエリア（下り線）店</SimpleData>
+					<SimpleData name="住所">佐賀県佐賀市金立町金立1197-57</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.3080449,33.32824149999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ゆめタウン佐賀店</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Starbucks_saga_SS">
+					<SimpleData name="名前">ゆめタウン佐賀店</SimpleData>
+					<SimpleData name="住所">佐賀県佐賀市兵庫北5-14-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>130.307966,33.27499489999998,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

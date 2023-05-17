@@ -1,0 +1,269 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.29895,
+          33.239628
+        ]
+      },
+      "properties": {
+        "name": "佐賀南バイパス店",
+        "住所": "佐賀県佐賀市本庄町袋306-6",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.292328,
+          33.247746
+        ]
+      },
+      "properties": {
+        "name": "佐賀大学通り店",
+        "住所": "佐賀県佐賀市与賀町70-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.511795,
+          33.406254
+        ]
+      },
+      "properties": {
+        "name": "鳥栖プレミアム・アウトレット店",
+        "住所": "佐賀県鳥栖市弥生が丘8-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.517654,
+          33.377193
+        ]
+      },
+      "properties": {
+        "name": "TSUTAYA鳥栖店",
+        "住所": "佐賀県鳥栖市本鳥栖町537-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.498413,
+          33.375893
+        ]
+      },
+      "properties": {
+        "name": "鳥栖蔵上町店",
+        "住所": "佐賀県鳥栖市蔵上町662-5",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5298,
+          33.440655
+        ]
+      },
+      "properties": {
+        "name": "基山パーキングエリア（上り線）店",
+        "住所": "佐賀県三養基郡基山町小倉2097-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.023087,
+          33.188904
+        ]
+      },
+      "properties": {
+        "name": "蔦屋書店武雄市図書館店",
+        "住所": "佐賀県武雄市武雄町武雄5304-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.027405,
+          33.19331
+        ]
+      },
+      "properties": {
+        "name": "佐賀武雄店",
+        "住所": "佐賀県武雄市武雄町昭和277",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.981812,
+          33.43071
+        ]
+      },
+      "properties": {
+        "name": "唐津店",
+        "住所": "佐賀県唐津市和多田西山1-46-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.306046,
+          33.337917
+        ]
+      },
+      "properties": {
+        "name": "金立サービスエリア（下り線）店",
+        "住所": "佐賀県佐賀市金立町金立1197-57",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.308182,
+          33.275646
+        ]
+      },
+      "properties": {
+        "name": "ゆめタウン佐賀店",
+        "住所": "佐賀県佐賀市兵庫北5-14-1",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      }
+    }
+  ]
+}
